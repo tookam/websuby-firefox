@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "My Firefox Extension",
+  "name": "Websuby",
   "version": "1.0",
-  "description": "A Firefox extension built with Vue 3, Supabase, and Tailwind CSS.",
+  "description": "A universal video subtitles translator for seamless subtitle translation across websites, making content accessible in multiple languages.",
   "permissions": [
     "storage",
     "activeTab",
@@ -19,15 +19,15 @@
   "browser_action": {
     "default_popup": "index.html",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "icons/icon16.jpg",
+      "48": "icons/icon48.jpg",
+      "128": "icons/icon128.jpg"
     }
   },
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icons/icon16.jpg",
+    "48": "icons/icon48.jpg",
+    "128": "icons/icon128.jpg"
   },
   "content_scripts": [
     {

@@ -4,4 +4,6 @@ cp -rf public/* dist/
 
 npm run build
 
-npm run start:firefox
+npm run ext:firefox
+
+npm run ext:build
