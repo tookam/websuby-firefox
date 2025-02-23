@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "ext:firefox": "web-ext run --firefox='/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox' --source-dir ./dist/",
     "ext:lint": "web-ext lint --source-dir ./dist/",
-    "ext:build": "web-ext build --source-dir ./dist/"
+    "ext:build": "web-ext build --source-dir ./dist/",
+    "ext:sign": "web-ext sign --channel=listed --amo-metadata=./public/metadata.json --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET --source-dir ./dist/"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.6",

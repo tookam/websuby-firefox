@@ -1,7 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Websuby",
-  "version": "1.0",
+  "version": "1.1.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{4a7c2f47-ab32-41c2-8c99-c196337dd0a2}",
+      "strict_min_version": "128.0"
+    }
+  },
   "description": "A universal video subtitles translator for seamless subtitle translation across websites, making content accessible in multiple languages.",
   "permissions": [
     "storage",
